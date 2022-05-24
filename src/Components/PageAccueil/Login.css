@@ -1,0 +1,147 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperLogin{
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 0px 5px 33px -21px rgb(5, 133, 5);
+    -moz-box-shadow: 0px 5px 33px -21px rgb(5, 133, 5);
+    box-shadow: 0px 5px 33px -21px rgb(5, 133, 5);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.or{
+    border: 2px solid rgb(107, 100, 100);
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(114, 104, 104);
+    background-color: white;
+    font-weight: bold;
+}
+.line{
+    width: 0.5px;
+    height: 70%;
+    background-color: rgb(83, 78, 78);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+.loginButton{
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.facebook{
+   width: 25%;
+   color: blue;
+}
+.google{
+    width: 25%;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .loginTitle{
+    position: absolute;
+    top: 150px;
+    color:rgb(44, 100, 6)
+}
+.inputF{
+    width: 200px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: -80px;
+}
+.submit{
+    width: 200px;
+    margin-left: -80px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.face{
+    padding: 10px 20px;
+    height: 25px;
+}
+.reset{
+    margin-left: -80px;
+}
+@media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .wrapperLogin {
+      width: 65%;
+      height: 90%;
+      flex-direction: column;
+    }
+  
+    .loginTitle {
+      display: none;
+    }
+  
+    .center {
+      width: 100%;
+      position: relative;
+    }
+  
+    .left {
+      padding: 20px;
+    }
+  
+    .right {
+      padding: 20px;
+    }
+  
+    .line {
+      height: 0.5px;
+      width: 300px;
+    }
+  }
+  

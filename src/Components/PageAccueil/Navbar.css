@@ -1,0 +1,20 @@
+nav{
+  margin: 0;
+  background-color: transparent!important;
+  padding: 50px 50px!important;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 20px!important;
+}
+.navbar-nav .active{
+  border-bottom: 1px solid #fff;
+}
+.logo{
+  width: 100px;
+  height: 70px;
+}

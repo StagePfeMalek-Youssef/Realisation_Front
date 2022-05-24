@@ -1,0 +1,95 @@
+.fontH4{
+	color: #303030;
+}
+.servives{
+    
+	width: 100%;
+	display: flex;
+	height: 760px;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding:40px 20px;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 70px;
+}
+ 
+ 
+.s-heading{
+	
+	height: 100%;
+	margin:20px;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+.s-heading h3{
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size:2.5rem;
+	
+ 
+}
+.s-heading h3 font{
+	color:#303030;
+}
+.services-container{
+   
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0px 0px;
+	
+}
+.s-box{
+	width:350px;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 12px;
+	position: relative;
+	margin: 20px 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.s-box img{
+	height:150px;
+}
+.s-box p{
+	color:#4d4d4d70;
+	font-family: myriad pro;
+	font-size: 0.9rem;
+	letter-spacing: 0.5;
+}
+.s-btn{
+	position: absolute;
+	width:140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:calibri;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+	background:linear-gradient(120deg,#035a1d 20%,#0bda04);
+	color:#FFFFFF;
+	display: none;
+	animation: fade 0.2s;
+}
+.s-box:hover .s-btn{
+	display: flex;
+}
+.s-box:hover{
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.233);
+	background-color:#FFFFFF;
+}
+
+ 
